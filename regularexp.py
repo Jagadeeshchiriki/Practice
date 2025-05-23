@@ -15,6 +15,7 @@ for i in (list(result)):
 
 # match --> find the staring position with using the re
 # to start the matching at intial position , return singel object
+
 matchobj = re.match(r'.+',data)   # '.' ,'\n' , '\d','\D', '\w', '\W' ,'@', '\s', '\S'
 print(matchobj)
 if matchobj:
